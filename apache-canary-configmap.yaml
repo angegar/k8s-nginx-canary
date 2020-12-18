@@ -1,0 +1,7 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: website-canary
+data:
+  # property-like keys; each key maps to a simple value
+  index.html: v0.2
